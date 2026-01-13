@@ -1,4 +1,6 @@
-/* Mở rộng title bài viết */
-.article-header {
+/* Chỉ mở rộng header bài viết */
+header,
+header > div,
+header > div.max-w-prose {
   max-width: 100% !important;
 }
